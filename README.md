@@ -1,22 +1,12 @@
-A library for Dart developers.
+# Dart Code to Automatically Mark Attendance for SNU Students
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+# Requirements
+Requires 'dart-sdk' to run.
 
-## Usage
+# Use
+Go to lib/src/main.dart
+Enter your netID and password (credentials) in the script
+Run the code
 
-A simple usage example:
-
-```dart
-import 'package:browser_pup/browser_pup.dart';
-
-main() {
-  var awesome = new Awesome();
-}
-```
-
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
+# Packages used
+puppeteer
