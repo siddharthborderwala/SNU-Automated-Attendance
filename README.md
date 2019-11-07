@@ -4,8 +4,8 @@
 Requires 'dart-sdk' to run.
 
 # Use
-Go to lib/src/main.dart, 
-Enter your netID and password (credentials) in the script, 
+Go to lib/src/main.dart '\n' 
+Enter your netID and password (credentials) in the script '\n'
 Run the code
 
 # Important
