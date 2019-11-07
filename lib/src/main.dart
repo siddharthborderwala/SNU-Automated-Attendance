@@ -1,11 +1,11 @@
 import 'package:puppeteer/puppeteer.dart';
 
-final netID = 'sb943';
-final password = 'Sid@9426944582';
+// enter credentials
+final netID = 'your net ID here';
+final password = 'your passsword here';
 
 void main() async {
-  final root_url =
-      'https://markattendance.webapps.snu.edu.in/public/application/login/login';
+  final root_url = 'https://markattendance.webapps.snu.edu.in/public/application/login/login';
 
   print('program started');
 
@@ -29,8 +29,7 @@ void main() async {
     page.click('a[href="/public/application/index/index"]'),
   ]);
 
-  if ((await page.url) ==
-      'https://markattendance.webapps.snu.edu.in/public/application/index/summary') {
+  if ((await page.url) == 'https://markattendance.webapps.snu.edu.in/public/application/index/summary') {
     print("Attendance not initiallized\nTry again later.");
     await browser.close();
   } else {
