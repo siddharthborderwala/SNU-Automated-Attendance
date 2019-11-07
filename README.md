@@ -1,9 +1,22 @@
-# SNU-Automated-Attendance
-Dart Code to mark Attendance in SNU
+A library for Dart developers.
 
-# Packages used
-pupppeteer
+Created from templates made available by Stagehand under a BSD-style
+[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
 
-# Use
-Enter your netID and password in the script
-Run the dart code
+## Usage
+
+A simple usage example:
+
+```dart
+import 'package:browser_pup/browser_pup.dart';
+
+main() {
+  var awesome = new Awesome();
+}
+```
+
+## Features and bugs
+
+Please file feature requests and bugs at the [issue tracker][tracker].
+
+[tracker]: http://example.com/issues/replaceme
