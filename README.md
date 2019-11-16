@@ -11,7 +11,7 @@
 
 
 # Important
-  You must be connected to SNU wifi in order to mark attendance.
+  You <strong>must</strong> be connected to SNU wifi in order to mark attendance.
 
 # Packages used
   puppeteer
