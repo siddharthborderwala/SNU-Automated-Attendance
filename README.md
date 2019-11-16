@@ -14,4 +14,4 @@
   You <strong>must</strong> be connected to SNU wifi in order to mark attendance.
 
 # Packages used
-  puppeteer
+  <a href="https://github.com/xvrh/puppeteer-dart">puppeteer-dart</a>
